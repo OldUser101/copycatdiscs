@@ -17,7 +17,12 @@ public class CopycatEventHandler {
 		if (gen == null)
 			return;
 
+		int nPlays = stack.getDamageValue();
+		int maxPlays = stack.getMaxDamage();
+
 		List<Component> tooltip = event.getToolTip();
 		tooltip.add(Component.translatable("tooltip.copycatdiscs.generation", gen).withStyle(ChatFormatting.GRAY));
+		tooltip.add(
+				Component.translatable("tooltip.copycatdiscs.plays", nPlays, maxPlays).withStyle(ChatFormatting.GRAY));
 	}
 }

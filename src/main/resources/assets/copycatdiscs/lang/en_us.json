@@ -2,8 +2,9 @@
   "itemGroup.copycatdiscs": "Copycat Discs",
   "item.copycatdiscs.disc_substrate": "Disc Substrate",
   "item.copycatdiscs.blank_disc": "Blank Disc",
-  "item.copycatdiscs.copied_disc": "§dMusic Disc",
+  "item.copycatdiscs.copied_disc": "§dMusic Disc (copy)",
   "item.copycatdiscs.damaged_disc": "Damaged Disc",
 
-  "tooltip.copycatdiscs.generation": "Generation: %s"
+  "tooltip.copycatdiscs.generation": "Generation: %s",
+  "tooltip.copycatdiscs.plays": "Plays: %s / %s"
 }
