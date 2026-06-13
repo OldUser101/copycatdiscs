@@ -1,0 +1,16 @@
+{
+  "display": {
+    "announce_to_chat": false,
+    "icon": {
+      "id": "copycatdiscs:copied_disc"
+    },
+    "title": "Copycat Discs",
+    "description": "Music disc copying",
+    "show_toast": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

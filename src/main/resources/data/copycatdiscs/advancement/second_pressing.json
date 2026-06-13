@@ -7,6 +7,7 @@
     "description": "The copy isn't quite the same as the original.",
     "frame": "task"
   },
+  "parent": "copycatdiscs:fresh_vinyl",
   "criteria": {
     "copy_disc": {
       "trigger": "minecraft:inventory_changed",

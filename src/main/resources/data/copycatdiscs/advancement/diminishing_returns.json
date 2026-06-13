@@ -7,6 +7,7 @@
     "description": "Music wasn't meant to be duplicated forever.",
     "frame": "task"
   },
+  "parent": "copycatdiscs:second_pressing",
   "criteria": {
     "copy_disc": {
       "trigger": "minecraft:inventory_changed",
