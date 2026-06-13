@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": "200",
+  "ingredient": {
+    "item": "copycatdiscs:damaged_disc"
+  },
+  "result": {
+    "id": "copycatdiscs:disc_substrate"
+  }
+}

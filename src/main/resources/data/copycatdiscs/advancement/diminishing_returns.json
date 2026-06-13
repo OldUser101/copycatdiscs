@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "id": "copycatdiscs:damaged_disc"
+    },
+    "title": "Diminishing Returns",
+    "description": "Music wasn't meant to be duplicated forever.",
+    "frame": "task"
+  },
+  "criteria": {
+    "copy_disc": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "copycatdiscs:damaged_disc"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

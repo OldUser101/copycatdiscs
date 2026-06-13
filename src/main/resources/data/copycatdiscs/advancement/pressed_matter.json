@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "copycatdiscs:disc_substrate"
+    },
+    "title": "Pressed Matter",
+    "description": "Create disc substrate from quartz and iron.",
+    "frame": "task"
+  },
+  "criteria": {
+    "copy_disc": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "copycatdiscs:disc_substrate"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
+

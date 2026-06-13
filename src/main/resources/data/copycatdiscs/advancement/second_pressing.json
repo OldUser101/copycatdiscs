@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "id": "copycatdiscs:copied_disc"
+    },
+    "title": "Second Pressing",
+    "description": "The copy isn't quite the same as the original.",
+    "frame": "task"
+  },
+  "criteria": {
+    "copy_disc": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "copycatdiscs:copied_disc"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

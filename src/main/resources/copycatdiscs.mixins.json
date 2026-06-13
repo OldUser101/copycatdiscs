@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "net.ngill.copycatdiscs.mixin",
+  "compatiblityLevel": "JAVA_21",
+  "mixins": [
+    "JukeboxBlockEntityMixin",
+    "BlockEntityAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

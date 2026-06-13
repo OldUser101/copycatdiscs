@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "DDD",
+    "BGB",
+    "DDD"
+  ],
+  "key": {
+    "D": {
+      "item": "copycatdiscs:disc_substrate"
+    },
+    "B": {
+      "item": "minecraft:black_dye"
+    },
+    "G": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "result": {
+    "count": "1",
+    "id": "copycatdiscs:blank_disc"
+  }
+}

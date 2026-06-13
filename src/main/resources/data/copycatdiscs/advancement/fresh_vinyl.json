@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "copycatdiscs:blank_disc"
+    },
+    "title": "Fresh Vinyl",
+    "description": "Craft a blank disc.",
+    "frame": "task"
+  },
+  "criteria": {
+    "copy_disc": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "copycatdiscs:blank_disc"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
+
